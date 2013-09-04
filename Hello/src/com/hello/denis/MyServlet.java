@@ -36,7 +36,7 @@ public class MyServlet extends HttpServlet {
         @Override
         public void run() {
             try {
-    			Thread.sleep(88000);
+    			Thread.sleep(999000);
                 asyncContext.getResponse().getWriter().println("hello " +  ++i + " ");
             } catch (Exception e) {
                 throw new RuntimeException(e);
